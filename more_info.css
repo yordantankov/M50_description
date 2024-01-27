@@ -53,8 +53,6 @@ img{
 /* video section */  /*need some work on small screens too */
 
 .video{
-    width: 600px;
-    height: 490px;
     margin: auto;
     padding-top: 20px;
     border: 3px solid black;
