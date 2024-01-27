@@ -1,0 +1,133 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+
+/* all body work and background image */        /* perfect condition */
+body{
+    background-image: url("images/bmw-e36-illustration-v0-5pjcways3mha1.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-top: 10px solid black; 
+    border-bottom: 10px solid black;  
+    border-radius: 30px;
+}
+
+
+/* here's the top buttons (hyper links to new website's) */
+.container {
+    display: flex;
+    font-family: "Single Day", cursive;
+    font-size: 25px;
+    
+    .list-item {
+        margin-right: 40px; 
+  }
+  
+}
+
+/* title full edit (perfect condition) */
+#title{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-style: inset;
+    border-width: 5px;
+    border-color: black;
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    margin-top:10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    
+    
+}
+
+/* first and second resum with transitions on it + edits (perfect condition!) */
+.resum{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid white;
+    background: black;
+    border-radius: 13px;
+    font-variant: small-caps;
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+    
+}
+.resum2{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    border-radius: 13px;
+    font-variant: small-caps;
+    transition: transform 0.3s ease;
+}
+
+.resum:hover, .resum2:hover{
+    transition: background-color 1.6s ease;
+    background-color: white;
+    color: black;
+    fill: aliceblue;
+}
+
+.resum:hover{
+    transform: translate(10px, 5px);
+}   
+
+.resum2:hover{
+    transform: translate(6px, 5px);
+}  
+
+
+/* full specs and button in it and edits (perfect condition) */
+
+.link_full_specs{
+    font-size: 17px;
+    border: 2px solid white;
+    background-color: black;
+    color: whitesmoke;
+    border-radius:13px ;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    font-variant: small-caps;
+}
+
+.buttonHere {
+    border:2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    padding: 5px ;
+    font-family: "Single Day", cursive;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+
+.buttonHere:hover{
+    background-color: rgb(241, 71, 71);
+    color: black;
+    
+}
+
+.link_full_specs:hover {
+    transition: background-color 1.6s ease;
+    background-color: white;
+    color: black;
+    fill: aliceblue;
+}
+
+
